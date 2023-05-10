@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import './App.css';
 import Customer from './components/Customer';
+import Table from '@mui/material-ui/core/Table'
+import TableHead from '@mui/material-/core/TableHead'
+import TableBody from '@mui/material-ui/core/TableBody'
+import TableRow from '@mui/material-ui/core/TableRow'
+import TableCell from '@mui/material-ui/core/TableCell'
 
 const customer = [{
   'id' : 1,
