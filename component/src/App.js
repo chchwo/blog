@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import './App.css';
 import Customer from './components/Customer';
-import Table from '@mui/material-ui/core/Table'
-import TableHead from '@mui/material-/core/TableHead'
-import TableBody from '@mui/material-ui/core/TableBody'
-import TableRow from '@mui/material-ui/core/TableRow'
-import TableCell from '@mui/material-ui/core/TableCell'
+import Table from '@material-ui/core/Table'
+import TableHead from '@material-ui/core/TableHead'
+import TableBody from '@material-ui/core/TableBody'
+import TableRow from '@material-ui/core/TableRow'
+import TableCell from '@material-ui/core/TableCell'
 
 const customer = [{
   'id' : 1,
@@ -19,7 +19,7 @@ const customer = [{
 {
   'id' : 2,
   'image' : 'https://th.bing.com/th/id/OIP.o5svIJjW8dURpJcR7XnDQQHaE6?w=284&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7',
-   'name' : '面倒',
+  'name' : '面倒',
   'birthday' : '010605',
   'gender' : '남',
   'job' : 'shiran'
@@ -28,7 +28,7 @@ const customer = [{
 {
   'id' : 3,
   'image' : 'https://th.bing.com/th/id/OIP.o5svIJjW8dURpJcR7XnDQQHaE6?w=284&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7',
-   'name' : '面倒くせえ',
+  'name' : '面倒くせえ',
   'birthday' : '110605',
   'gender' : '남',
   'job' : 'shiran'
